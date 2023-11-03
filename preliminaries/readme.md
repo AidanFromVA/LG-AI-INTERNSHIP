@@ -1,4 +1,4 @@
-## [LG Aimers Smart Factory Product Quality Status Classification AI]
+## [LG AI InternShip Smart Factory Product Quality Status Classification]
 
 # 1. EDA progress
 #2.Try
