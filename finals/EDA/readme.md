@@ -1,32 +1,32 @@
-예선전과 비교하여 데이터 추가(row 증가) 및 feature 증가(2875개 -> 3326개).  
+Compared to the preliminaries, data was added (row increased) and features increased (2875 -> 3326).
 
 ## Dataset Info.
 
-## train.csv [파일]
-PRODUCT_ID : 제품의 고유 ID.  
-Y_Class : 제품 품질 상태(Target)    
-0 : 적정 기준 미달 (부적합).  
-1 : 적합.  
-2 : 적정 기준 초과 (부적합).  
-Y_Quality : 제품 품질 관련 정량적 수치.  
-LINE : 제품이 들어간 공정 LINE 종류 ('T050304', 'T050307', 'T100304', 'T100306', 'T010306', 'T010305' 존재).  
-PRODUCT_CODE : 제품의 CODE 번호 ('A_31', 'T_31', 'O_31' 존재).  
-X_1 ~ X_3326 : 공정 과정에서 추출되어 비식별화된 변수.  
+## train.csv [file]
+PRODUCT_ID: Unique ID of the product.
+Y_Class: Product quality status (Target)
+0: Failure to meet appropriate standards (unsuitable).
+1: Suitable.
+2: Exceeding the appropriate standard (non-conformance).
+Y_Quality: Quantitative figures related to product quality.
+LINE: Type of process LINE the product entered ('T050304', 'T050307', 'T100304', 'T100306', 'T010306', 'T010305' exist).
+PRODUCT_CODE: Product CODE number ('A_31', 'T_31', 'O_31' exists).
+X_1 ~ X_3326: Variables extracted during the process and de-identified.
 
 
-## test.csv [파일].  
-PRODUCT_ID : 제품의 고유 ID   
-LINE : 제품이 들어간 공정 LINE 종류 ('T050304', 'T050307', 'T100304', 'T100306', 'T010306', 'T010305' 존재).  
-PRODUCT_CODE : 제품의 CODE 번호 ('A_31', 'T_31', 'O_31' 존재).  
-X_1 ~ X_3326 : 공정 과정에서 추출되어 비식별화된 변수.  
+## test.csv [file].
+PRODUCT_ID: Unique ID of the product
+LINE: Type of process LINE the product entered ('T050304', 'T050307', 'T100304', 'T100306', 'T010306', 'T010305' exist).
+PRODUCT_CODE: Product CODE number ('A_31', 'T_31', 'O_31' exists).
+X_1 ~ X_3326: Variables extracted during the process and de-identified.
 
 
-## sample_submission.csv [파일] - 제출 양식
-PRODUCT_ID : 제품의 고유 ID.  
-Y_Class : 예측한 제품 품질 상태.  
-0 : 적정 기준 미달 (부적합).  
-1 : 적합.  
-2 : 적정 기준 초과 (부적합).  
+## sample_submission.csv [file] - submission form
+PRODUCT_ID: Unique ID of the product.
+Y_Class: Predicted product quality status.
+0: Failure to meet appropriate standards (unsuitable).
+1: Suitable.
+2: Exceeding the appropriate standard (non-conformance).
 
-실제 공정 과정에서의 데이터로, 보안상의 이유로 일부 변수가 비식별화 처리 되었습니다. (X변수).  
-'LINE', 'PRODUCT_CODE'는 Train / Test 모두 동일한 종류가 존재합니다.   
+This is data from the actual process, and some variables have been de-identified for security reasons. (X variable).
+'LINE' and 'PRODUCT_CODE' are of the same type for both Train and Test.
