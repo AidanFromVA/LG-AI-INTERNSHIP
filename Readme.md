@@ -2,6 +2,10 @@
 
 ## Preliminaries
    - '23.01.01 ~ '23.02.28
+
+## Solution
+![image](https://github.com/byungkwon2023F/LG-AI-INTERNSHIP/assets/88296556/89265dad-1c83-4164-b529-90201b29ab55)
+
 <hr>
 
 Try1: feature selection
@@ -44,3 +48,4 @@ Curse of dimensionality expected due to feature increase (2875 -> 3326)
    - Preliminary data model 1
    - Main line data model 2
    - Full data model 3
+
