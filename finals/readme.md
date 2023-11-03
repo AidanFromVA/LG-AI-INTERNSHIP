@@ -1,12 +1,8 @@
-## [LG Aimers 스마트 공장 제품 품질 상태 분류 AI 온라인 해커톤 - 본선('23.03.25 ~ '23.03.26)](https://dacon.io/competitions/official/236080/overview/description)
+LG AI Intern Smart Factory Product Quality Status Classification
+Try:
+Curse of dimensionality expected due to feature increase (2875 -> 3326) - Feature elimination based on corr - Integrated into one feature through PCA above corr threshold (0.9).
 
-
-## Try:
-feature 증가 (2875 -> 3326) 으로 인해 Curse of dimensionality 예상
-    - corr 기준 feature elimination
-    - corr 기준 threshold(0.9) 이상 PCA를 통해 하나의 feature로 통합.
-    
-## Solution: Multi model 구축 및 Dicision Boundary를 Decision Tree를 사용하여 동적 조절
-  - 예선전 데이터 model 1
-  - 본선 데이터 model 2
-  - 전체 데이터 model 3
+Solution: Build a multi model and dynamically adjust the decision boundary using a decision tree.
+Preliminary data model 1
+Main line data model 2
+Full data model 3
