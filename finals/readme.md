@@ -1,4 +1,5 @@
 LG AI Intern Smart Factory Product Quality Status Classification
+
 Try:
 Curse of dimensionality expected due to feature increase (2875 -> 3326) - Feature elimination based on corr - Integrated into one feature through PCA above corr threshold (0.9).
 
